@@ -97,6 +97,7 @@ input, select {
     width: 100%;
     height: 94px;
     box-shadow: 0 3px 6px rgba(0,0,0,0.16);
+
     &-inner {
         max-width: 1022px;
         margin-left: auto;
@@ -107,6 +108,7 @@ input, select {
         justify-content: space-between;
         height: 100%;
     }
+
     &-logo {
         display: flex;
         align-items: center;
@@ -114,7 +116,41 @@ input, select {
             width: 47px;
             height: 47px;
         }
+        .header-ttl {
+            margin-left: 16px;
+            font-size: 24px;
+            font-weight: bold;
+        }
     }
 
+    &-nav {
+        ul {
+            display: flex;
+            list-style: none;
+            justify-content: space-between;
+            li {
+                text-align: center;
+                margin-right: 45px;
+                a {
+                    color: #333333;
+                    text-decoration: none;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
 
+    .contact-btn {
+      display: block;
+      width: 155px;
+      height: 27px;
+      background: transparent linear-gradient(90deg, #FA41CC 0%, #6020B0 100%) 0% 0% no-repeat;
+      border-radius: 10px;
+      text-align: center;
+      line-height: 27px;
+      color: #fff;
+      font-weight: bold;
+      text-decoration: none;
+      box-shadow: 0 3px 6px rgba(0,0,0,0.16);
+    }
 }

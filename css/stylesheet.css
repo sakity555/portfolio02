@@ -130,4 +130,47 @@ input, select {
   width: 47px;
   height: 47px;
 }
+
+.header-logo .header-ttl {
+  margin-left: 16px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.header-nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header-nav ul li {
+  text-align: center;
+  margin-right: 45px;
+}
+
+.header-nav ul li a {
+  color: #333333;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.header .contact-btn {
+  display: block;
+  width: 155px;
+  height: 27px;
+  background: transparent -webkit-gradient(linear, left top, right top, from(#FA41CC), to(#6020B0)) 0% 0% no-repeat;
+  background: transparent linear-gradient(90deg, #FA41CC 0%, #6020B0 100%) 0% 0% no-repeat;
+  border-radius: 10px;
+  text-align: center;
+  line-height: 27px;
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+  -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+          box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+}
 /*# sourceMappingURL=stylesheet.css.map */
