@@ -282,3 +282,42 @@ body {
     margin-top: 60px;
   }
 }
+
+.sec03 {
+  padding: 0 64px 86px;
+  &-inner {
+    max-width: 1022px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+    #acdn-button {
+      margin-top: 40px;
+    }
+
+    #acdn-button dt {
+      display:block;
+      width: 100%;
+      padding: 1rem;
+      text-align: center;
+      border: 1px solid #E5E5E5;
+      cursor:pointer;
+    }
+    #acdn-button dd {
+      background: #F2F2F2;
+      width: 100%;
+      padding: 1rem;
+      line-height: 1.5;
+      text-align: left;
+      border: 1px solid #E5E5E5;
+      display:none;
+    }
+}
+
+.sec04 {
+  background: #EEFBFB;
+  &-inner {
+    max-width: 1022px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
