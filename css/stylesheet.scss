@@ -314,10 +314,122 @@ body {
 }
 
 .sec04 {
-  background: #EEFBFB;
+  background-color: #EEFBFB;
   &-inner {
     max-width: 1022px;
     margin-left: auto;
     margin-right: auto;
+  }
+  &-card_wrap {
+    display: flex;
+    justify-content: space-around;
+    padding: 64px 0 91px;
+  }
+  &-card_list {
+    background-color: #fff;
+    width: calc((100% - 30px *2)/3);
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16);
+      .sec04-card_link {
+        text-decoration: none;
+        color: #333333;
+        img {
+          max-width: 100%;
+          box-sizing: border-box;
+        }
+        .sec04-card_ttl {
+          text-align: left;
+          font-size: 18px;
+          line-height: 1.5;
+          height: 91px;
+          margin: 16px;
+        }
+        .sec04-card_time {
+          text-align: right;
+          font-size: 16px;
+          height: 20px;
+          margin:10px 16px 16px;
+        }
+      }
+  }
+}
+
+.sec05 {
+  &-inner {
+    max-width: 1022px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  &-card_wrap {
+    display: flex;
+    justify-content: space-around;
+    padding: 64px 0 91px;
+  }
+  .sec05-card_list + .sec05-card_list {
+    margin-left: 30px;
+  }
+  &-card_list {
+    background-color: #fff;
+    border-radius: 10px;
+    border: 1px solid #DDDDDD;
+      .sec05-card_link {
+        text-decoration: none;
+        color: #333333;
+
+        .sec05-card_ttl {
+          text-align: left;
+          font-size: 16px;
+          line-height: 1.5;
+          margin: 18px;
+        }
+        p {
+          text-align: left;
+          font-size: 14px;
+          line-height: 1.8;
+          margin:18px;
+        }
+      }
+  }
+}
+
+.sec06 {
+  .sec06-ttl {
+    background: transparent linear-gradient(90deg, #05A5FA 0%, #63FBD7 100%, #67FFD6 100%) 0% 0% no-repeat padding-box;
+    opacity: 1;
+    color: #fff;
+    text-align: center;
+    h2 {
+      padding-top: 40px;
+      font-size: 32px;
+      font-weight: bold;
+    span {
+      font-size: 16px;
+      display: block;
+      margin-top: 20px;
+    }
+    }
+    p {
+      font-size: 16px;
+      line-height: 1.5;
+      margin: 20px 0 20px;
+    }
+  }
+}
+
+footer {
+  padding: 60px 0 50px;
+  text-align: center;
+  h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+  a {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  p {
+    margin-top: 60px;
+    font-size: 14px;
   }
 }
