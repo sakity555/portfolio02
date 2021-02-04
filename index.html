@@ -194,9 +194,9 @@
     <h2 class="sec-ttl">
       制作実績<span>WORKS</span>
     </h2>
-    <div class="sec05-inner">
-      <div class="sec05-card_wrap">
-        <div class="sec05-card_list">
+    <div class="sec05-inner swiper-container" data-slidesPerView="5">
+      <div class="sec05-card_wrap swiper-wrapper">
+        <div class="sec05-card_list swiper-slide">
           <a class="sec05-card_link" href="#">
             <figure class="sec05-card_figure">
               <img src="image/sec05-01.png" alt="カードの画像">
@@ -208,7 +208,7 @@
             </p>
           </a>
         </div>
-        <div class="sec05-card_list">
+        <div class="sec05-card_list swiper-slide">
           <a class="sec05-card_link" href="#">
             <figure class="sec05-card_figure">
               <img src="image/sec05-02.png" alt="カードの画像">
@@ -220,7 +220,7 @@
             </p>
           </a>
         </div>
-        <div class="sec05-card_list">
+        <div class="sec05-card_list swiper-slide">
           <a class="sec05-card_link" href="#">
             <figure class="sec05-card_figure">
               <img src="image/sec05-03.png" alt="カードの画像">
@@ -232,7 +232,7 @@
             </p>
           </a>
         </div>
-        <div class="sec05-card_list">
+        <div class="sec05-card_list swiper-slide">
           <a class="sec05-card_link" href="#">
             <figure class="sec05-card_figure">
               <img src="image/sec05-01.png" alt="カードの画像">
@@ -244,10 +244,22 @@
             </p>
           </a>
         </div>
-        <div class="sec05-card_list">
+        <div class="sec05-card_list swiper-slide">
           <a class="sec05-card_link" href="#">
             <figure class="sec05-card_figure">
               <img src="image/sec05-02.png" alt="カードの画像">
+            </figure>
+            <h2 class="sec05-card_ttl">株式会社サンプル様採用サイトのコーディングを行いました！</h2>
+            <p>採用技術：jQuery,Bootstrap4<br>
+              実装期間：2週間<br>
+              担当コーダー：石井<br>
+            </p>
+          </a>
+        </div>
+        <div class="sec05-card_list swiper-slide">
+          <a class="sec05-card_link" href="#">
+            <figure class="sec05-card_figure">
+              <img src="image/sec05-03.png" alt="カードの画像">
             </figure>
             <h2 class="sec05-card_ttl">株式会社サンプル様採用サイトのコーディングを行いました！</h2>
             <p>採用技術：jQuery,Bootstrap4<br>
@@ -268,13 +280,37 @@
       <p>コーディングの人出が足りないとき、<br>
         あなたの力になります</p>
     </div>
-    <div class="sec04-inner">
-      お名前　必須
-      メールアドレス　必須
-      お問い合わせ内容　必須
-      プライバシーポリシーに同意する
+    <div class="sec06-inner">
+      <div class="form-box">
+        <div class="from">
+          <div class="form-item">
+            <p class="form-item-label">名前
+              <span class="form-item-label-required">必須</span>
+            </p>
+            <input type="text" class="form-item-input">
+          </div>
+          <div class="form-item">
+            <p class="form-item-label">メールアドレス
+              <span class="form-item-label-required">必須</span>
+            </p>
+            <input type="email" class="form-item-input">
+          </div>
+          <div class="form-item">
+            <p class="form-item-label">お問い合わせ内容
+              <span class="Form-item-label-required">必須</span>
+            </p>
+            <textarea class="form-item-textarea"></textarea>
+          </div>
+          <div class="from-check">
+            <input type="checkbox" class="form-check-input" value="accept" style="transform:scale(1.5);">
+            <label class="form-check-label" for="exampleCheck1">プライバシーポリシーに同意する</label>
+          </div>
+          <input type="submit" class="form-btn" value="送信する">
+        </div>
+      </div>
     </div>
   </section>
+
   <footer>
     <h3>ユアコーディング</h3>
     <a href="#">プライバシーポリシー</a>
