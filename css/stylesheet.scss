@@ -180,6 +180,9 @@ body {
   background-size: auto;
   background-repeat: no-repeat;
   position: relative;
+  opacity: 0;
+  transform: translate(0, 100px);
+  transition: all 2000ms;
 
     &-inner {
       max-width: 1022px;
@@ -211,7 +214,13 @@ body {
       z-index: 1000;
     }
 }
+.main-scroll {
+  opacity: 1;
+  transform: translate(0, 0);
+}
 .sec01 {
+  transform: translate(0, 100px);
+  transition: all 2000ms;
   .sec-ttl {
     margin-bottom: 65px;
   }
@@ -245,6 +254,10 @@ body {
       }
     }
   }
+}
+.sec01-scroll {
+  opacity: 1;
+  transform: translate(0, 0);
 }
 .sec02 {
   background-color: #EEFBFB;
